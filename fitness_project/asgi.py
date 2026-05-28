@@ -8,11 +8,11 @@ https://docs.djangoproject.com/en/6.0/howto/deployment/asgi/
 """
 
 import os
-
-from django.core.asgi import get_asgi_application
+from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'fitness_project.settings')
 
-application = get_asgi_application()
+application = get_wsgi_application()
 
+# Add this line at the very bottom for Vercel:
 app = application

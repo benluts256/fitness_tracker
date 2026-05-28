@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-48z@r8x)^u!$_r9fv@unru#@=z#x6=j*_ggmfeo00@332(ux8n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['Benon.pythonanywhere.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.vercel.app', 'now.sh', '127.0.0.1', 'localhost']
 
 
 # Application definition
